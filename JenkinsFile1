@@ -1,6 +1,7 @@
 mypipeline{
     tools{
         jdk 'myjava'
+        
         maven 'mymaven131'
     }
     agent any
