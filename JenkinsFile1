@@ -14,6 +14,7 @@ mypipeline{
         }
         stage('Compile'){
             agent any
+            
             steps{
                 sh 'mvn compile'
             }
